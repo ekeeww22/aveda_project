@@ -14,10 +14,344 @@
     <link rel="icon" href="./images/aveda.png" type="image/x-icon">
     <!-- stylesheet -->
     <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/index.css">
 </head>
 <body>
+    <!-- header -->
     <header>
-        
+        <div class="main_header">
+            <!-- 광고 슬라이드 -->
+            <div class="swiper" id="header_adver">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><a href="#">공식몰 첫 구매시 15% 할인</a></div>
+                    <div class="swiper-slide"><a href="#">100% 비건 • 비콥 인증</a></div>
+                </div><!-- end swiper-wrapper -->
+            </div><!-- and swiper adver -->
+            <div class="lnb">
+                <a href="#"><img src="./images/icon/icon_map_w.png" alt=""><span>매장 찾기</span></a>
+                <a href="#"><img src="./images/icon/icon_login_w.png" alt=""><span>로그인</span></a>
+                <a href="#"><img src="./images/icon/icon_cart_w.png" alt=""><span>주문조회</span></a>
+            </div>
+            <!-- 배너 -->
+            <h1><a href="#"><img src="./images/aveda_logo.png" alt="AVEDA"></a></h1>
+            <!-- 내비게이션 -->
+            <nav>
+                <a href="#">공식몰 단독혜택</a>
+                <a href="#">베스트 셀러</a>
+                <a href="#">헤어진단</a>
+                <a href="#">헤어케어</a>
+                <a href="#">스타일링</a>
+                <a href="#">스킨케어</a>
+                <a href="#">바디케어</a>
+                <a href="#">맨 케어</a>
+                <a href="#">아로마</a>
+                <a href="#">선물 제안</a>
+                <a href="#">아베다 스토리</a>
+                <a href="#">HOW-TO</a>
+                <a href="#" class="search_icon"><img src="./images/icon/icon_search_w1.png" alt=""></a>
+            </nav>
+            <!-- 검색영역 -->
+            <div class="search_wrap">
+                <form action="#" method="get" class="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색양식</legend>
+                        <input type="text" class="search_txt" placeholder="검색어를 입력하세요">
+                        <button type="submit" class="search_btn"><img src="./images/icon/icon_search_b.png" alt=""></button>
+                    </fieldset>
+                </form>
+                <!-- 인기검색어 영역 -->
+                <div class="search_lank">
+                    <a href="#"><h2>인기 검색어</h2></a>
+                    <a href="#"><p>인바티</p></a>
+                    <a href="#"><p>브러쉬</p></a>
+                    <a href="#"><p>샴푸어</p></a>
+                    <a href="#"><p>오일</p></a>
+                    <a href="#"><p>리터 펌프</p></a>
+                </div>
+            </div>
+        </div>
+        <!-- 스크롤 했을 때 상단 배너 사이즈 변경 -->
+        <div class="scroll_header">
+            <h1><a href="#"><img src="./images/aveda_logo2.png" alt="AVEDA"></a></h1>
+            <nav>
+                <a href="#">공식몰 단독혜택</a>
+                <a href="#">베스트 셀러</a>
+                <a href="#">헤어진단</a>
+                <a href="#">헤어케어</a>
+                <a href="#">스타일링</a>
+                <a href="#">스킨케어</a>
+                <a href="#">바디케어</a>
+                <a href="#">맨 케어</a>
+                <a href="#">아로마</a>
+                <a href="#">선물 제안</a>
+                <a href="#">아베다 스토리</a>
+                <a href="#">HOW-TO</a>
+                <a href="#" class="search_icon"><img src="./images/icon/icon_search_b.png" alt=""></a>
+            </nav>
+            <!-- 검색영역 -->
+            <div class="search_wrap">
+                <form action="#" method="get" class="search_frm">
+                    <fieldset>
+                        <legend class="skip">검색양식</legend>
+                        <input type="text" class="search_txt" placeholder="검색어를 입력하세요">
+                        <button type="submit" class="search_btn"><img src="./images/icon/icon_search_b.png" alt=""></button>
+                    </fieldset>
+                </form>
+                <!-- 인기검색어 영역 -->
+                <div class="search_lank">
+                    <a href="#"><h2>인기 검색어</h2></a>
+                    <a href="#"><p>인바티</p></a>
+                    <a href="#"><p>브러쉬</p></a>
+                    <a href="#"><p>샴푸어</p></a>
+                    <a href="#"><p>오일</p></a>
+                    <a href="#"><p>리터 펌프</p></a>
+                </div>
+            </div>
+            <div class="lnb">
+                <a href="#"><img src="./images/icon/icon_map_b.png" alt="매장찾기"></a>
+                <a href="#"><img src="./images/icon/icon_login_b.png" alt="로그인"></a>
+                <a href="#"><img src="./images/icon/icon_cart_b.png" alt="주문조회"></a>
+            </div>
+        </div>
     </header>
+    <!-- main 배너 슬라이드 -->
+    <div class="main_bnr_wrap">
+        <div class="swiper" id="main_bnr">
+            <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
+            <div class="swiper-wrapper">
+                <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
+                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide2"></div>
+            </div>
+            <!-- 슬라이드 이전, 다음 버튼 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <!-- 이벤트 영역 -->
+    <div class="event_wrap">
+        <div class="title_wrap">
+            <h2>이벤트</h2>
+        </div>
+        <!-- 이벤트 배너 슬라이드 -->
+        <div class="swiper" id="event_bnr">
+            <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
+            <div class="swiper-wrapper">
+                <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
+                <div class="swiper-slide slide1"></div>
+                <div class="swiper-slide slide2"></div>
+                <div class="swiper-slide slide3"></div>
+            </div>
+            <!-- 슬라이드 이전, 다음 버튼 -->
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-button-next"></div>
+        </div>
+    </div>
+    <!-- 베스트 셀러 영역 -->
+    <div class="best_seller_wrap">
+        <div class="title_wrap">
+            <h2>베스트 셀러</h2>
+        </div>
+        <div class="best_seller_slide">
+            <div class="swiper" id="best_seller">
+                <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
+                    <div class="swiper-wrapper">
+                        <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
+                        <div class="swiper-slide item1">
+                            <div class="top">
+                                <a href="#"><img src="./images/product1.jpg" alt=""></a>
+                                <a href="#"><h2>로즈메리 민트 퓨리파잉 샴푸</h2></a>
+                            </div>
+                            <div class="btm">
+                                <a href="#" class="star">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <span>(50명참여)</span>
+                                </a>
+                                <a href="#" class="price">1000ml / ₩192,000</a>
+                                <a href="#" class="cart">장바구니에 추가</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item2">
+                            <div class="top">
+                                <a href="#"><img src="./images/product2.jpg" alt=""></a>
+                                <a href="#"><h2>인바티 어드밴스드™ 엑스폴리에이팅 샴푸 - 리치</h2></a>
+                            </div>
+                            <div class="btm">
+                                <a href="#" class="star">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <span>(29명참여)</span>
+                                </a>
+                                <a href="#" class="price">1000ml / ₩192,000</a>
+                                <a href="#" class="cart">장바구니에 추가</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item3">
+                            <div class="top">
+                                <a href="#"><img src="./images/product3.jpg" alt=""></a>
+                                <a href="#"><h2>보태니컬 리페어™ 스트렝쓰닝 샴푸</h2></a>
+                            </div>
+                            <div class="btm">
+                                <a href="#" class="star">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <span>(37명참여)</span>
+                                </a>
+                                <a href="#" class="price">1000ml / ₩192,000</a>
+                                <a href="#" class="cart">장바구니에 추가</a>
+                            </div>
+                        </div>
+                        <div class="swiper-slide item4">
+                            <div class="top">
+                                <a href="#"><img src="./images/product4.jpg" alt=""></a>
+                                <a href="#"><h2>데미지 레미디™ 데일리 헤어 리페어</h2></a>
+                            </div>
+                            <div class="btm">
+                                <a href="#" class="star">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <img src="./images/icon/star.png" alt="">
+                                    <span>(35명참여)</span>
+                                </a>
+                                <a href="#" class="price">100ml / ₩55,000</a>
+                                <a href="#" class="cart">장바구니에 추가</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 슬라이드 이전, 다음 버튼 -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+        </div>
+    </div>
+    <!-- 신상품 -->
+    <div class="new_product_wrap">
+        <div class="title_wrap">
+            <h2>신상품</h2>
+        </div>
+        <!-- 신상품 배너 -->
+        <a href="#"><img src="./images/new_bnr.jpg" alt=""></a>
+        <!-- 신상품 슬라이드 -->
+        <div class="new_product_slide">
+            <div class="swiper" id="new_product">
+                <!-- .swiper-wrapper 슬라이드 한장 한장을 묶어주는 슬라이드 영역 틀 -->
+                <div class="swiper-wrapper">
+                    <!-- .swiper-slide 슬라이드 개별 한장 부모 -->
+                    <div class="swiper-slide item1">
+                        <a href="#" class="top">
+                            <img src="./images/product_new_1.jpg" alt="">
+                            <h2>스칼프 솔루션 밸런싱 샴푸</h2>
+                        </a>
+                        <a href="#" class="contents">두피의 과도한 피지와 노폐물 제거 & 수분을 공급해 두피 보습에 도움을 주는 두피 케어용 샴푸</a>
+                        <div class="btm">
+                            <a href="#" class="star">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <span>(28명참여)</span>
+                            </a>
+                            <a href="#" class="price">1000ml / ₩92,000</a>
+                            <a href="#" class="cart">장바구니에 추가</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item2">
+                        <div class="top">
+                            <a href="#"><img src="./images/product_new_2.jpg" alt=""></a>
+                            <a href="#"><h2>스칼프 솔루션 리플레니싱 컨디셔너</h2></a>
+                        </div>
+                        <a href="#" class="contents">두피 유수분 밸런스 및 두피를 깨끗하게 유지시켜주고 영양을 주는 컨디셔너</a>
+                        <div class="btm">
+                            <a href="#" class="star">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <span>(10명참여)</span>
+                            </a>
+                            <a href="#" class="price">1000ml / ₩220,000</a>
+                            <a href="#" class="cart">장바구니에 추가</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item3">
+                        <div class="top">
+                            <a href="#"><img src="./images/product_new_3_1.jpg" alt=""></a>
+                            <a href="#"><h2>스칼프 솔루션 오버나이트 리뉴얼 세럼</h2></a>
+                        </div>
+                        <a href="#" class="contents">두피에 수분을 공급해 피부를 부드럽게 케어해주고 두피장벽 강화에 도움을 주는 세럼</a>
+                        <div class="btm">
+                            <a href="#" class="star">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <span>(44명참여)</span>
+                            </a>
+                            <a href="#" class="price">50ml / ₩68,000</a>
+                            <a href="#" class="cart">장바구니에 추가</a>
+                        </div>
+                    </div>
+                    <div class="swiper-slide item4">
+                        <div class="top">
+                            <a href="#"><img src="./images/product_new_4.jpg" alt=""></a>
+                            <a href="#"><h2>스칼프 솔루션 리프레싱 프로텍티브 미스트</h2></a>
+                        </div>
+                        <a href="#" class="contents">피지 분비를 케어해 유수분 밸런스 조절에 도움을 주며, 오염물질 및 외부 환경적 스트레스 요인들로 부터 두피를 하루동안 보호해주는 미스트</a>
+                        <div class="btm">
+                            <a href="#" class="star">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <img src="./images/icon/star.png" alt="">
+                                <span>(35명참여)</span>
+                            </a>
+                            <a href="#" class="price">100ml / ₩66,000</a>
+                            <a href="#" class="cart">장바구니에 추가</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- 슬라이드 이전, 다음 버튼 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            </div>
+        </div>
+    </div>
+    <!-- 아베다 스토리 -->
+    <div class="aveda_story">
+        <div class="title_wrap">
+            <h2>AVEDA STORY</h2>
+        </div>
+        <img src="./images/btm_bnr.jpg" class="btm_bnr1" alt="한병에 담긴 자연의 가치, 식물의 힘으로 정성을 담아 만들어진 아베다의 제품은 당신에게 긍정적인 변화를 가져다줄 것입니다. 아베다는 제품개발에 있어 타협하지 않습니다.">
+        <img src="./images/btm_bnr2.jpg" class="btm_bnr2" alt="동물 유래 성분 미사용, 100% 풍력 및 태양열 제조, 재활용 패트 재질 100% 조성의 병, 천연 유례지수 90%">
+        <p class="story">
+            당사의 모든 제품은 재생 가능한 재생 에너지 크레딧 및 탄소 오프셋을 통해 100% 풍력 및 태양열로 제조됩니다.<br>
+            2021년 말까지 아베다 주요 제조 시설에서 UL 방식을 사용하여 매립지까지 폐기물 매립 제로 실버등급 인증 획득을 위해 노력하고 있습니다.<br>
+            아베다의 스킨 케어 및 헤어 스타일링 제품의 페트 용기 중 85% 이상이 100% 재활용된 페트 재질로 구성 되어 있습니다.<br>
+            아베다는 뷰티 업계 최초로 재활용 된 패트 재질 100%로 조성된 재질의 패키지를 사용하고 있습니다.<br>
+            ISO 16128 가이드라인 계산 지수임. 다만, 이는 한국식품의약품안전처의 기준에 따른 천연화장품에 해당한다는 의미가 아님.
+        </p>
+    </div><!-- story_end -->
+    
+    <!-- header, footer 웹페이지 공통영역 적용 js -->
+    <script src="./script/common.js"></script>
+    <!-- index js -->
+    <script src="./script/index.js"></script>
 </body>
 </html>
