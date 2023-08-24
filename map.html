@@ -20,34 +20,46 @@
 <body>
     <main>
         <div class="search_store_wrap">
-            <div class="search_store">
-                <h1>가까운 아베다 매장을 찾아 보세요</h1>
-                <form action="#" method="get" id="searchFrm">
-                    <fieldset>
-                        <legend class="skip">검색양식</legend>
-                        <input type="text" id="searchTxt" placeholder="지역명을 입력해 주세요">
-                        <button type="submit" id="searchBtn"><img src="./images/icon/icon_search_b.png" alt=""></button>
-                    </fieldset>
-                </form>
-                <div class="store_list">
-                    <a href="#" class="store">
-                        <em>신라서울면세점</em>
-                        <span>서울시 중구 장충동 2가 202 신라 호텔 면세점 2층
-                            서울특별시 100-856
-                            02-2230-1429</span>
-                    </a>
-                    <a href="#" class="store">
-                        <em>신세계백화점 명동본점</em>
-                        <span>서울시 중구 충무로1가 52-5 신세계백화점 본점 1층 아베다
-                            서울특별시 100-747
-                            02-310-5073</span>
-                    </a>
-                    <a href="#" class="store">
-                        <em>롯데면세점</em>
-                        <span>서울시 중구 소공동 1 롯데면세점 9층
-                            서울특별시 100-721
-                            02-759-6704</span>
-                    </a>
+            <div class="search_store_frm">
+                <div class="search_store">
+                    <h1>가까운 아베다 매장을 찾아 보세요</h1>
+                    <form action="#" method="get" id="searchFrm">
+                        <fieldset>
+                            <legend class="skip">검색양식</legend>
+                            <input type="text" id="searchTxt" placeholder="지역명을 입력해 주세요">
+                            <button type="submit" id="searchBtn"><img src="./images/icon/icon_search_b.png" alt=""></button>
+                        </fieldset>
+                    </form>
+                    <div class="store_list">
+                        <div href="#" class="store">
+                            <a href="#">
+                                <em>신라서울면세점</em>
+                                <span>서울시 중구 장충동 2가 202 신라 호텔 면세점 2층<br>02-2230-1429</span>
+                            </a>
+                            <a href="#" class="store_info">매장정보</a>
+                        </div>
+                        <div href="#" class="store">
+                            <a href="#">
+                                <em>신세계백화점 명동본점</em>
+                                <span>서울시 중구 충무로1가 52-5 신세계백화점 본점 1층 아베다<br>02-310-5073</span>
+                            </a>
+                            <a href="#" class="store_info">매장정보</a>
+                        </div>
+                        <div href="#" class="store">
+                            <a href="#">
+                                <em>롯데면세점</em>
+                                <span>서울시 중구 소공동 1 롯데면세점 9층<br>02-759-6704</span>
+                            </a>
+                            <a href="#" class="store_info">매장정보</a>
+                        </div>
+                        <div href="#" class="store">
+                            <a href="#">
+                                <em>라리엔(명동)</em>
+                                <span>서울 중구 명동길 60 T avenue 빌딩 7층<br>02-753-0902</span>
+                            </a>
+                            <a href="#" class="store_info">매장정보</a>
+                        </div>
+                    </div>
                 </div>
             </div>
             <div id="map"><!-- 지도삽입위치 --></div>
@@ -56,5 +68,21 @@
     </main>
     <!-- header, footer 웹페이지 공통영역 적용 js -->
     <!-- <script src="./script/common.js"></script> -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=3c61125f978aaedcf5ad3b9696be9b81"></script>
+    <script>
+        const container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
+        let options = { //지도를 생성할 때 필요한 기본 옵션
+            center: new kakao.maps.LatLng(37.55674005,127.0060045), //지도의 중심좌표.
+            level: 3 //지도의 레벨(확대, 축소 정도)
+        };
+        let map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
+        var markerPosition  = new kakao.maps.LatLng(37.55674005,127.0060045);
+        // 마커를 생성합니다
+        var marker = new kakao.maps.Marker({
+            position: markerPosition
+        });
+        // 마커가 지도 위에 표시되도록 설정합니다
+        marker.setMap(map);
+    </script>
 </body>
 </html>
