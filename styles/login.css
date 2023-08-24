@@ -1,0 +1,17 @@
+/* main */
+main {width:480px; margin:0 auto;}
+main .login_wrap {margin:100px 0 130px; }
+main .login_wrap h1 {font-size: 3.125rem; font-weight: 700; text-align:center; margin-bottom:50px;}
+main .login_wrap #loginFrm {}
+main .login_wrap #loginFrm fieldset {}
+main .login_wrap #loginFrm fieldset ul {}
+main .login_wrap #loginFrm fieldset ul li {}
+main .login_wrap #loginFrm fieldset ul li input {width:100%; padding:15px 15px; border:1px solid #334d25; }
+main .login_wrap #loginFrm fieldset .user_info {text-align:right; margin:30px 0;}
+main .login_wrap #loginFrm fieldset .user_info a {padding-left:10px; font-weight:500;}
+main .login_wrap #loginFrm fieldset .user_info a:first-child::after {display:inline-block; content:''; background:#000; width:1px; height:12px; margin-left:15px;}
+main .login_wrap #loginFrm fieldset #login_btn {width:100%; padding:20px 10px; background:#f4f2ee; border-radius:5px;}
+/* 회원가입 */
+main .login_wrap .join_membership {display:flex; justify-content:space-between; align-items:center; margin-top:30px;}
+main .login_wrap .join_membership span {font-weight: 500;}
+main .login_wrap .join_membership a {border-radius:5px; padding:20px 30px; background:#334d25; color:#fff;}

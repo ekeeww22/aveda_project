@@ -1,0 +1,50 @@
+/* main */
+main {max-width:1200px; margin:0 auto; }
+/* breadcrumbs */
+main .breadcrumbs {
+    margin:50px 0 80px; padding-bottom:25px; border-bottom:1px solid #d7d0c6; }
+main .breadcrumbs a {font-weight:600; }
+main .breadcrumbs span {font-weight:600; color:#555;}
+/* 상품 영역 */
+main .item {width:900px; margin:0 auto; height:490px; display:flex; justify-content:space-between;  }
+main .item {}
+main .item img {}
+main .item .contents {width:450px; display:flex ; flex-flow:column nowrap; justify-content:space-between;}
+main .item .contents h1 {font-size:2.36856rem;}
+main .item .contents p {line-height:25px;}
+main .item .contents .star {}
+main .item .contents .star img {}
+main .item .contents .star span {font-size: 0.75rem;}
+main .item .contents dl {display:flex; justify-content:space-between; padding:10px 0;}
+main .item .contents dl:last-of-type {border-top:1px solid #000;}
+main .item .contents dl dt {font-weight: 500;}
+main .item .contents dl dd {}
+main .item .contents .total * {
+    font-weight:700; font-size: 1.333rem; margin:20px 0 32px; 
+}
+main .item .contents .total dt {}
+main .item .contents .total dd {}
+main .item .contents .select_btn {}
+main .item .contents .select_btn a {padding:15px 25px; text-align:center; color:#fff; display:inline-block; width:49%;}
+main .item .contents .select_btn .buy {background:#334d25;}
+main .item .contents .select_btn .cart {background:#222;}
+/* 상세페이지 영역 */
+main > h2 {
+    text-align:center; padding-top:100px; margin:100px 0 30px; font-size: 2.36856rem; font-weight:700; color:#222; border-top:1px solid #d7d0c6;
+}
+main > p {text-align:center; font-size:1.776rem;  color:#222; margin-bottom:80px;}
+main .contents_top_wrap {display:flex; justify-content:center;}
+main .contents_top_wrap > div {width:300px;}
+main .contents_top_wrap > div img {width:300px; margin-bottom:20px;}
+main .contents_top_wrap > div span {font-weight: 500; line-height:25px;}
+main .contents_top_wrap .left {margin-right:60px;}
+main .contents_top_wrap .left img {}
+main .contents_top_wrap .left span {}
+main .contents_top_wrap .right {}
+main .contents_top_wrap > .right img {}
+main .contents_top_wrap .right span {}
+main > p {margin-top:100px; }
+main p img {width:100%;}
+main .notice {padding:80px 0 100px; border-top:1px solid #d7d0c6; }
+main .notice dt {margin-bottom:20px; font-size: 1.333rem; font-weight: 700;}
+main .notice dd {margin-bottom:30px; font-weight:500; line-height:25px;}

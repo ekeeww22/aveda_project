@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>login | AVEDA</title>
+    <!-- swiper slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/aveda.png" type="image/x-icon">
+    <link rel="icon" href="./images/aveda.png" type="image/x-icon">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/login.css">
+</head>
+<body>
+    <main>
+        <div class="login_wrap">
+            <h1>로그인</h1>
+            <form action="#" id="loginFrm">
+                <fieldset>
+                    <legend class="skip">로그인양식</legend>
+                    <ul>
+                        <li class="id_input"><input type="text" id="user_id" placeholder="이메일"></li>
+                        <li class="pw_input"><input type="password" id="user_pw" placeholder="비밀번호"></li>
+                    </ul>
+                    <div class="user_info">
+                        <a href="#" class="id_search">아이디 찾기</a>
+                        <a href="#" class="pw_search">비밀번호 찾기</a>
+                    </div>
+                    <button type="submit" id="login_btn">로그인</button>
+                </fieldset>
+            </form>
+            <div class="join_membership">
+                <span>아직 아베다 공식온라인몰 회원이 아니신가요?</span>
+                <a href="#" class="join_btn">회원가입</a>
+            </div>
+        </div>
+    </main>
+    
+    <!-- header, footer 웹페이지 공통영역 적용 js -->
+    <!-- <script src="./script/common.js"></script> -->
+</body>
+</html>

@@ -70,3 +70,36 @@ header .scroll_header > .lnb {}
 header .scroll_header > .lnb a {}
 header .scroll_header > .lnb a:nth-child(2) {margin:0 20px;}
 header .scroll_header > .lnb a img {width:20px; height:20px;}
+/* footer */
+footer {width:100%; margin:0 auto; }
+footer .top {display:flex; padding:50px 100px; justify-content:center; transform:translateX(-13%);}
+footer .top dt {font-size: 1.3125rem; font-weight:600; margin-bottom:15px;}
+footer .top dd {line-height:30px;}
+footer .top .pro {}
+footer .top .pro dt {}
+footer .top .pro dt dd {}
+footer .top .pro dt dd a {}
+footer .top .help {margin:0 120px;}
+footer .top .help dt {}
+footer .top .help dt dd {}
+footer .top .help dt dd a {}
+footer .top .sns {}
+footer .top .sns dt {padding-bottom:5px;}
+footer .top .sns dd {margin-top:15px;}
+footer .top .sns dd a {display:flex; align-items:center;}
+footer .top .sns dd a img {margin-right:5px;}
+footer .top .sns dd a span {}
+footer .btm {
+    border-top:1px solid #d7d0c6;
+    display:flex; justify-content:center; align-items:center; padding:30px 100px;
+}
+footer .btm a {}
+footer .btm a img {width:100px;}
+footer .btm .mid {margin:0 80px;}
+footer .btm .mid .law {}
+footer .btm .mid .law a {padding-right:15px;}
+footer .btm .mid .law span {}
+footer .btm .mid address {margin-top:20px; font-size: 0.75rem; line-height:25px;}
+footer .btm .mid address a {font-size: 0.75rem; border-bottom:1px solid #222;}
+footer .btm #lang {width:190px; height:35px; border:1px solid #d7d0c6; background:none;}
+footer .btm #lang option {}

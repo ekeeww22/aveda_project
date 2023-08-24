@@ -97,3 +97,10 @@
 .aveda_story .btm_bnr1 {height:445px;}
 .aveda_story .btm_bnr2 {height:210px; }
 .aveda_story .story {background:#687233; color:#fff; padding:50px 80px; line-height:30px; text-align:left;}
+/* quick btn */
+.quick_btn {z-index:999; position:fixed; bottom:5%; right:20px; display:flex; flex-flow:column nowrap; align-items:center;}
+.quick_btn a { margin-top:15px; }
+.quick_btn a img {width:40px;}
+.quick_btn a span {color:#888; padding-bottom:10px;}
+.quick_btn .chat {display:flex; flex-flow:column nowrap; align-items:center;}
+.quick_btn .top_btn {}

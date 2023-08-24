@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>매장찾기 | AVEDA</title>
+    <!-- swiper slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/aveda.png" type="image/x-icon">
+    <link rel="icon" href="./images/aveda.png" type="image/x-icon">
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="./styles/reset.css">
+    <link rel="stylesheet" href="./styles/common.css">
+    <link rel="stylesheet" href="./styles/map.css">
+</head>
+<body>
+    <main>
+        <div class="search_store_wrap">
+            <div class="search_store">
+                <h1>가까운 아베다 매장을 찾아 보세요</h1>
+                <form action="#" method="get" id="searchFrm">
+                    <fieldset>
+                        <legend class="skip">검색양식</legend>
+                        <input type="text" id="searchTxt" placeholder="지역명을 입력해 주세요">
+                        <button type="submit" id="searchBtn"><img src="./images/icon/icon_search_b.png" alt=""></button>
+                    </fieldset>
+                </form>
+                <div class="store_list">
+                    <a href="#" class="store">
+                        <em>신라서울면세점</em>
+                        <span>서울시 중구 장충동 2가 202 신라 호텔 면세점 2층
+                            서울특별시 100-856
+                            02-2230-1429</span>
+                    </a>
+                    <a href="#" class="store">
+                        <em>신세계백화점 명동본점</em>
+                        <span>서울시 중구 충무로1가 52-5 신세계백화점 본점 1층 아베다
+                            서울특별시 100-747
+                            02-310-5073</span>
+                    </a>
+                    <a href="#" class="store">
+                        <em>롯데면세점</em>
+                        <span>서울시 중구 소공동 1 롯데면세점 9층
+                            서울특별시 100-721
+                            02-759-6704</span>
+                    </a>
+                </div>
+            </div>
+            <div id="map"><!-- 지도삽입위치 --></div>
+        </div>
+
+    </main>
+    <!-- header, footer 웹페이지 공통영역 적용 js -->
+    <!-- <script src="./script/common.js"></script> -->
+</body>
+</html>

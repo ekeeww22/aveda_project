@@ -1,0 +1,16 @@
+/* main */
+main {width:1200px; margin:0 auto; padding:100px 0;}
+main .search_store_wrap {width:100%; height:640px; display:flex;}
+main .search_store_wrap .search_store {width:560px; background:url(../images/map_bg.jpg) no-repeat 0; background-size:cover; }
+main .search_store_wrap .search_store h1 {}
+main .search_store_wrap .search_store #searchFrm {}
+main .search_store_wrap .search_store #searchFrm fieldset {}
+main .search_store_wrap .search_store #searchFrm fieldset #searchTxt {}
+main .search_store_wrap .search_store #searchFrm fieldset #searchBtn {}
+main .search_store_wrap .search_store #searchFrm fieldset #searchBtn img {width:20px;}
+main .search_store_wrap .search_store .store_list {}
+main .search_store_wrap .search_store .store_list a {}
+main .search_store_wrap .search_store .store_list a em {}
+main .search_store_wrap .search_store .store_list a span {}
+main .search_store_wrap #map {}
+
