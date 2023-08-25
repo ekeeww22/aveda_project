@@ -112,8 +112,11 @@
             totalNum.value++
         })
         minusBtn.addEventListener('click',function(){
-            totalNum.value--
+            if(totalNum.value > 0){
+                totalNum.value--
+            }
         })
+        
     </script>
 </body>
 </html>

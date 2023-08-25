@@ -1,8 +1,8 @@
 /* main */
-main {width:1200px; margin:0 auto;}
+main {max-width:1200px; margin:0 auto;}
 /* 상품 정렬 */
-main > h2 {width:100%; margin:300px 0 50px;}
-main h2 img {}
+main > h2 { margin:300px 0 50px;}
+main h2 img {width:100%}
 main .product_align {
     display:flex; align-items:center; justify-content:flex-end; padding-bottom:20px;
     border-bottom:1px solid #000;

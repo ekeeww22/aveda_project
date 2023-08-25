@@ -14,8 +14,7 @@ const event_bnr = new Swiper('#event_bnr',{
     centeredSlides:true,
     spaceBetween:20,
     slidesPerView:3,
-    slidesPerView:'auto',
-    autoplay:{delay:3000},
+    autoplay:{delay:50000},
     speed:800,
     navigation: {
         nextEl: '#event_bnr .swiper-button-next',
@@ -26,8 +25,6 @@ const best_seller = new Swiper('#best_seller',{
     loop:true,
     disableOnInteraction:false,
     slidesPerView:4,
-    spaceBetween:50,
-    slidesPerView:'auto',
     autoplay:{delay:2000},
     speed:500,
     navigation: {
@@ -39,8 +36,7 @@ const new_product = new Swiper('.new_product_slide #new_product',{
     loop:true,
     disableOnInteraction:false,
     slidesPerView:4,
-    spaceBetween:50,
-    slidesPerView:'auto',
+    spaceBetween:30,
     autoplay:{delay:2000},
     speed:500,
     navigation: {
