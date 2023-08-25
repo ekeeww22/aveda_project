@@ -27,16 +27,18 @@ const header_adver = new Swiper('#header_adver',{
 })
 /* 스크롤 시 header 변경 */
 
-scrollHeader.style.display = 'none'
-
+scrollHeader.style.transform = 'translateY(-60px)';
+scrollHeader.style.transform = 'opacity(0)'
 window.addEventListener('scroll',function(){
     if(window.scrollY > 100){
-        scrollHeader.style.display = 'flex';
-        mainHeader.style.display = 'none';
-        
+        scrollHeader.style.transform = 'translateY(0)';
+        mainHeader.style.transform = 'translateY(-230px)';
+        mainHeader.style.filter = 'opacity(0)'
+        scrollHeader.style.filter = 'opacity(100%)'
     }else{
-        scrollHeader.style.display = 'none'
-        mainHeader.style.display = 'flex'
+        scrollHeader.style.transform = 'translateY(-60px)'
+        mainHeader.style.transform = 'translateY(0)'
+        mainHeader.style.filter = 'opacity(100%)'
+        scrollHeader.style.filter = 'opacity(0)'
     }
-    
 })

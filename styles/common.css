@@ -4,36 +4,36 @@ header {}
 header .main_header {
     margin:0 auto; width:100%; 
     display:flex; flex-flow:column nowrap; align-items:center; justify-content:space-between; 
-    background: linear-gradient(180deg, rgba(104, 114, 51, 0.80) 66.18%, rgba(104, 114, 51, 0.00) 100%);
+    background: linear-gradient(180deg, #F4F2EE 0%, rgba(244, 242, 238, 0.93) 80.73%, rgba(244, 242, 238, 0.00) 100%);
     height:230px; 
     padding:25px 0;
-    z-index:999; position:fixed; top:0;
+    z-index:999; position:fixed; top:0; transition:all 0.3s ease;
     
 }
 /* header 광고 슬라이드 */
 header .main_header #header_adver {width:500px; height:25px;}
 header .main_header #header_adver > .swiper-wrapper {}
 header .main_header #header_adver > .swiper-wrapper .swiper-slide {text-align:center;}
-header .main_header #header_adver > .swiper-wrapper .swiper-slide a {color:#fff; font-weight:600;}
+header .main_header #header_adver > .swiper-wrapper .swiper-slide a {color:#222; font-weight:600;}
 /* header lnb */
 header .main_header > .lnb {position:absolute; top:25px; right:60px; display:flex; }
 header .main_header > .lnb a {display:flex; align-items:center; }
 header .main_header > .lnb a:nth-child(2) {margin:0 20px;}
 header .main_header > .lnb a img {width:20px; height:20px; margin-right:10px;}
-header .main_header > .lnb a span {color:#fff; font-weight:600;}
+header .main_header > .lnb a span {color:#222; font-weight:600;}
 /* header 메인 배너 */
 header .main_header h1 {width:250px;}
 header .main_header h1 a {}
 header .main_header h1 a img {width:100%;}
 /* header nav */
 header .main_header nav {display:flex; align-items:center;}
-header .main_header nav a {color:#fff; font-weight:600; margin-right:20px;}
+header .main_header nav a {color:#222; font-weight:600; margin-right:20px;}
 header .main_header nav a:last-child {margin-right:0;}
 header .main_header nav .search_icon {}
-header .main_header nav .search_icon img {}
+header .main_header nav .search_icon img {width:20px; height:20px;}
 /* header 검색영역 */
 header .search_wrap {
-    position:absolute; top:230px; left:66%; background: rgba(215, 208, 198, 0.80);
+    position:absolute; top:230px; left:66%; background:#F4F2EE;
     width:320px; padding:20px; border-radius:10px;
 }
 header .search_wrap .search_frm {}
@@ -55,7 +55,7 @@ header .scroll_header {
     margin:0 auto;
     width:100%; height:60px; padding:0 30px;
     display:flex; align-items:center; justify-content:space-between;
-    background:#f4f2ee; position:fixed; top:0; 
+    background:#f4f2ee; position:fixed; top:0; transition:all 0.5s ease;
 }
 header .scroll_header h1 {}
 header .scroll_header h1 a {}
@@ -71,7 +71,7 @@ header .scroll_header > .lnb a {}
 header .scroll_header > .lnb a:nth-child(2) {margin:0 20px;}
 header .scroll_header > .lnb a img {width:20px; height:20px;}
 /* footer */
-footer {width:100%; margin:0 auto; }
+footer {width:100%; margin:0 auto; border-top:1px solid #d7d0c6;}
 footer .top {display:flex; padding:50px 100px; justify-content:center; transform:translateX(-13%);}
 footer .top dt {font-size: 1.3125rem; font-weight:600; margin-bottom:15px;}
 footer .top dd {line-height:30px;}
@@ -103,3 +103,4 @@ footer .btm .mid address {margin-top:20px; font-size: 0.75rem; line-height:25px;
 footer .btm .mid address a {font-size: 0.75rem; border-bottom:1px solid #222;}
 footer .btm #lang {width:190px; height:35px; border:1px solid #d7d0c6; background:none;}
 footer .btm #lang option {}
+/* animation */
