@@ -41,3 +41,9 @@ const new_product = new Swiper('#new_product',{
         nextEl: '#new_product .swiper-button-next',
         prevEl: '#new_product .swiper-button-prev',} 
 })
+/* 퀵 버튼 - top 버튼 */
+const topBtn = document.querySelector('.quick_btn .top_btn')
+topBtn.addEventListener('click',function(){
+    window.scrollTo({left:0, top:0})
+})
+console.log(topBtn)

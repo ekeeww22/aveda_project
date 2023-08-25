@@ -1,3 +1,4 @@
+body, html {scroll-behavior:smooth;}
 /* 모든 title */
 * .title_wrap {}
 * .title_wrap h2 {font-size:3.125rem; font-weight:700; color:#222; text-align:center; margin:120px 0;}
