@@ -10,11 +10,14 @@ main .login_wrap #loginFrm fieldset {}
 main .login_wrap #loginFrm fieldset ul {}
 main .login_wrap #loginFrm fieldset ul li {}
 main .login_wrap #loginFrm fieldset ul li input {width:100%; padding:15px 15px; border:1px solid #334d25; }
+main .login_wrap #loginFrm fieldset ul li:first-child input {border-bottom:0;}
 main .login_wrap #loginFrm fieldset .user_info {text-align:right; margin:30px 0;}
 main .login_wrap #loginFrm fieldset .user_info a {padding-left:10px; font-weight:500;}
 main .login_wrap #loginFrm fieldset .user_info a:first-child::after {display:inline-block; content:''; background:#000; width:1px; height:12px; margin-left:15px;}
-main .login_wrap #loginFrm fieldset #login_btn {width:100%; padding:20px 10px; background:#f4f2ee; border-radius:5px;}
+main .login_wrap #loginFrm fieldset #login_btn {width:100%; padding:20px 10px; background:#f4f2ee; border-radius:5px; transition:all 0.5s;}
+main .login_wrap #loginFrm fieldset #login_btn:hover {background:#d7d0c6; font-weight:600;}
 /* 회원가입 */
 main .login_wrap .join_membership {display:flex; justify-content:space-between; align-items:center; margin-top:30px;}
 main .login_wrap .join_membership span {font-weight: 500;}
-main .login_wrap .join_membership a {border-radius:5px; padding:20px 30px; background:#334d25; color:#fff;}
+main .login_wrap .join_membership a {border-radius:5px; padding:20px 30px; background:#334d25; color:#fff; transition:all 0.5s;}
+main .login_wrap .join_membership a:hover {background:#d7d0c6; color:#000; font-weight: 500;}

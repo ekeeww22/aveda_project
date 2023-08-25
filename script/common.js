@@ -26,7 +26,6 @@ const header_adver = new Swiper('#header_adver',{
     direction:'vertical',
 })
 /* 스크롤 시 header 변경 */
-
 scrollHeader.style.transform = 'translateY(-60px)';
 scrollHeader.style.transform = 'opacity(0)'
 window.addEventListener('scroll',function(){

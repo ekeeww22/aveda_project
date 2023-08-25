@@ -9,12 +9,12 @@
                 </div><!-- end swiper-wrapper -->
             </div><!-- and swiper adver -->
             <div class="lnb">
-                <a href="./map.html"><img src="./images/icon/icon_map_w.png" alt=""><span>매장 찾기</span></a>
-                <a href="./login.html"><img src="./images/icon/icon_login_w.png" alt=""><span>로그인</span></a>
-                <a href="#"><img src="./images/icon/icon_cart_w.png" alt=""><span>주문조회</span></a>
+                <a href="./map.html"><img src="./images/icon/icon_map_b.png" alt=""><span>매장 찾기</span></a>
+                <a href="./login.html"><img src="./images/icon/icon_login_b.png" alt=""><span>로그인</span></a>
+                <a href="#"><img src="./images/icon/icon_cart_b.png" alt=""><span>주문조회</span></a>
             </div>
             <!-- 배너 -->
-            <h1><a href="./index.html"><img src="./images/aveda_logo.png" alt="AVEDA"></a></h1>
+            <h1><a href="./index.html"><img src="./images/aveda_logo2.png" alt="AVEDA"></a></h1>
             <!-- 내비게이션 -->
             <nav>
                 <a href="./product.html">공식몰 단독혜택</a>
@@ -29,7 +29,7 @@
                 <a href="./product.html">선물 제안</a>
                 <a href="./product.html">아베다 스토리</a>
                 <a href="./product.html">HOW-TO</a>
-                <a href="#" class="search_icon"><img src="./images/icon/icon_search_w1.png" alt=""></a>
+                <a href="#" class="search_icon"><img src="./images/icon/icon_search_b.png" alt=""></a>
             </nav>
             <!-- 검색영역 -->
             <div class="search_wrap">

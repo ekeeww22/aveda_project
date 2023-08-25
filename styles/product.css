@@ -30,4 +30,5 @@ main .container .item .btm .star {display:flex; flex-flow:row nowrap; align-item
 main .container .item .btm .star img {margin-right:2px;}
 main .container .item .btm .star span {font-size: 0.75rem;}
 main .container .item .btm .price {margin:15px 0;}
-main .container .item .btm .cart {padding:15px 25px; background:#334d25; color:#fff;}
+main .container .item .btm .cart {padding:15px 25px; background:#334d25; color:#fff; transition:all 0.5s;}
+main .container .item .btm .cart:hover {background:#aab868;}
