@@ -1,4 +1,4 @@
-
+main {min-width:1920px;}
 /* header */
 body, html {scroll-behavior:smooth; min-width:800px;}
 header {}
@@ -95,10 +95,10 @@ main .main_bnr_wrap #main_bnr .swiper-button-prev {background-image:url(../image
 main .main_bnr_wrap #main_bnr .swiper-button-next {background-image:url(../images/icon/icon_next_w.png);}
 /* 이벤트 영역 */
 main .event_wrap {}
-main .event_wrap #event_bnr {}
-main .event_wrap #event_bnr > .swiper-wrapper {}
+main .event_wrap #event_bnr {min-width:1920px;}
+main .event_wrap #event_bnr > .swiper-wrapper {margin-left:-6.3%;}
 main .event_wrap #event_bnr > .swiper-wrapper > * {
-    width:930px; height:400px; background-size:contain; background-repeat:no-repeat; background-position: center;
+    width:930px !important; height:400px; background-size:cover; background-repeat:no-repeat; background-position: center;
 }
 main .event_wrap #event_bnr > .swiper-wrapper .slide1 {background-image:url(../images/event_bnr1.jpg);}
 main .event_wrap #event_bnr > .swiper-wrapper .slide2 {background-image:url(../images/event_bnr2.jpg);}
@@ -107,11 +107,11 @@ main .event_wrap #event_bnr > .swiper-wrapper .slide4 {background-image:url(../i
 main .event_wrap #event_bnr > .swiper-button-prev::after,
 main .event_wrap #event_bnr > .swiper-button-next::after {display:none;}
 main .event_wrap #event_bnr > .swiper-button-prev,
-main .event_wrap #event_bnr > .swiper-button-next {width:30px; height:30px; background-size:cover;}
-main .event_wrap #event_bnr > .swiper-button-prev {background-image:url(../images/icon/icon_left.png); left:30%; }
-main .event_wrap #event_bnr > .swiper-button-next {background-image:url(../images/icon/icon_right.png); right:30%;}
+main .event_wrap #event_bnr > .swiper-button-next {width:40px; height:40px; background-size:cover;}
+main .event_wrap #event_bnr > .swiper-button-prev {background-image:url(../images/icon/icon_left.png); left:24%; }
+main .event_wrap #event_bnr > .swiper-button-next {background-image:url(../images/icon/icon_right.png); right:25%;}
 /* 베스트 셀러 영역 */
-main .best_seller_wrap {}
+main .best_seller_wrap {min-width:1920px;}
 main .best_seller_wrap .best_seller_all {position:relative;}
 main .best_seller_wrap .best_seller_all > .swiper-button-prev::after,
 main .best_seller_wrap .best_seller_all > .swiper-button-next::after {display:none;}
